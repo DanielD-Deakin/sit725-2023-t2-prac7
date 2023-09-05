@@ -1,0 +1,116 @@
+/* Importing new custom fonts */
+@font-face {
+    font-family: 'SelfDeception'; 
+    src: url('../fonts/self-deception-font/SelfDeceptionRegular-ALLWA.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Satisfy'; 
+    src: url('./fonts/Satisfy/Satisfy-Regular.ttf') format('truetype');
+}
+
+@import url('https://fonts.googleapis.com/css?family=Damion|Muli:400,600');
+
+/* Main panel of the webpage */
+.main-panel-contents {
+    font-family: 'Poppins', sans-serif;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: top; 
+    align-items: center; 
+    padding: 20px;
+    background-color: #a5a5a558;
+    border-radius: 15px; 
+    width: 300px;
+    height: 250px;
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(45deg, #c859ffa7 0%, #ffab8cbd 100%);
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 5px -1px,rgba(0, 0, 0, .14) 0 6px 10px 0,rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+
+.title-1 {
+    font-family: 'Satisfy';
+    font-size: 45px;
+    line-height: 1.5;
+    margin: 0;
+    padding-top: 15;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    align-items: top;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.result-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: left; 
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+}
+
+.field-container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: top; 
+    margin: 15px;
+}
+
+.result {
+    display: flex; 
+    box-sizing: border-box; 
+    justify-content: right;
+    align-items: center;
+    color: #bababa;
+    background-color: #4A3482;
+    border-radius: 0 24px 24px 0;
+    height: 32.5px;
+    width: 100px;
+    margin-left: 0px;
+    padding-right: 20px;
+    font-style: italic;
+    box-shadow: inset rgba(0, 0, 0, .2) 0 3px 5px -1px, inset rgba(0, 0, 0, .14) 0 6px 10px 0, inset rgba(0, 0, 0, .12) 0 1px 18px 0;
+}
+
+.materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+    }
+
+.click-me-button {
+    background-color: #523895;
+    margin-top: 30px;
+}
+    
+.demo-text {
+    font-family: 'Satisfy';
+    color: white;
+}
+
+.scenery-image {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover; 
+    border-radius: 15px;
+}
+
+.button-repo {
+    font-size: 11px; 
+    font-weight: 600; 
+    letter-spacing: 2px; 
+    height: 25px; display: 
+    flex; align-items: center; 
+    width: 200px; 
+    justify-content: left; 
+    padding-right: 0;
+    background-color: #5E4A90;
+}
+

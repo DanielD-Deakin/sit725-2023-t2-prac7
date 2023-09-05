@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SIT 725 Prac 3</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="global_styles.css">
+        <link rel="stylesheet" href="styles_components.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/demo.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <nav class="nav-overwritten">
+            <div class="nav-wrapper navbar-size">
+                <a href="#" class="brand-logo">
+                    <i class="material-icons" style="line-height: 50px; justify-content: left;">person</i>
+                </a>
+                <div class="student-number">222311422</div>
+                <div class="repo-text">sit725-2023-t2-prac4</div>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a target="_blank" href="https://www.linkedin.com/in/navit-choudhary-5133b9104/" style="font-family: Copperplate Gothic;">LinkedIn</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div class="row">
+                <div class="col s12 center-align">
+                    <h1 class="title-1" id="heading">Welcome to SIT 725 Week 4</h1>
+                    <p class="demo-text flow-text">In this week, a database will be added to this webpage</p>
+                </div>
+                <div class="col s12 center-align">
+                    <img class="materialboxed materialboxed-image" src="images/demo.png">
+                </div>
+                <div class="col s12 center-align">
+                    <a class="waves-effect waves-light btn click-me-button modal-trigger" id="clickMeButton" data-target="modal1"><i class="material-icons left">auto_fix_high</i>Add Card</a>
+                </div>
+            </div>
+            <div class="row" id="card-section">
+            </div>
+            
+            <div id="modal1" class="modal modal-fixed-footer">
+                <div class="row modal-content">
+                    <form class="col s12">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <input id="title" type="text" class="validate">
+                                <label for="title">Title</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <input id="subTitle" type="text" class="validate">
+                                <label for="subTitle">SubTitle</label>
+                            </div>
+                            </div>
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <input id="path" type="text" class="validate">
+                                        <label for="path">FilePath</label>
+                                    </div>
+                                </div>
+                            <div class="row">
+                            <div class="input-field col s12">
+                                <input id="description" type="text" class="validate">
+                                <label for="description">Description</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col s12 center-align">
+                                <a class="waves-effect waves-light btn" id="formSubmit">submit</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="script.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    </body>
+</html>

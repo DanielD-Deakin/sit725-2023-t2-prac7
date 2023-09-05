@@ -1,0 +1,87 @@
+/* Default styling for the body of the webpage */
+body {
+    font-family: 'Helvetica';
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Default webpage will always start off with the background image */
+html {
+    background-image: url("/images/background.png"); 
+    background-size: cover;
+    background-position: center;
+}
+
+/* Transparent banner (container) at the top of the page */
+.banner {
+    display: flex; 
+    justify-content: left; 
+    align-items: center;
+    max-width: 100vw; 
+    height: 30px; 
+    padding-left: 25px; /* additional padding so that the button isnt sitting too close to the top of the webpage */
+}
+
+/* Student ID + Repository text in the top left of the webpage */
+.student-number {
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: 'Copperplate Gothic';
+    color: rgb(255, 255, 255);
+    margin: 0;
+    display: inline-block;
+    padding-left: 35px
+}
+
+.repo-button {
+    font-size: 11px; 
+    font-weight: 600; 
+    letter-spacing: 2px; 
+    height: 25px; display: 
+    flex; align-items: center; 
+    width: 200px; 
+    justify-content: left; 
+    padding-right: 0;
+    background-color: #5E4A90;
+}
+
+.repo-text {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: 'Copperplate Gothic';
+    color: rgb(255, 255, 255);
+    margin: 0;
+    display: inline-block;
+    padding-left: 50px;
+}
+
+.nav-overwritten {
+    display: grid; 
+    background: linear-gradient(45deg, #c859ffa7 0%, #ffab8cbd 100%);
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    max-height: 50px;
+    line-height: 50px;
+}
+
+.navbar-size {
+    height: 30px;
+    width: 95%;
+    margin: 0 auto;
+    }
+    
+.user-icon {
+    display: flex; 
+    align-items: center;
+    justify-content: left;
+    padding-left: 10px;
+}
+

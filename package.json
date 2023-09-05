@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "materialize-css": "^1.0.0",
+    "mongodb": "^6.0.0",
+    "socket.io": "^4.7.2"
+  },
+  "name": "sit725-2023-t2-prac4",
+  "version": "1.0.0",
+  "description": "Week 4 Practical",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielD-Deakin/sit725-2023-t2-prac4.git"
+  },
+  "author": "Daniel Dobreski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielD-Deakin/sit725-2023-t2-prac4/issues"
+  }
+}
